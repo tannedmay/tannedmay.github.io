@@ -22,26 +22,19 @@ overflow-y: hidden;
 
 }
   
-@media only screen and (max-width: 400px) {
-   .carousel-caption {
-    display: none;
+@media=(min-width: 540px) {
+  p  {
+    padding: 15% 10% 5% 10%; 
+  } 
 
-  }
+  /*.btn-success {
+  color: #FFFBD0;
+  padding: 2% 2% 2% 2%;
+  background-color: #f4511e;
+  border: none;
+
+}*/
 }
-
-@media only screen and (min-width: 840px) {
-    .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
-    }
-}
-
-@media (min-width: 840px) {
-    .navbar-toggle {
-    display: none;
-    }
-}
-
 
 .carousel-indicators li {
     border-color: white;
@@ -126,7 +119,11 @@ overflow-y: hidden;
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="images/BG_1.JPG" alt="Los Angeles" style="width:100%;">
+        <picture>
+        <source media="(min-width: 540px)" srcset="images/BG_1.jpg">
+        <img src="images/BG_1_Mobile.jpg" width="100%" alt="Practice">
+      </picture>
+
         <div class="carousel-caption" style="padding: 3%">
         <!-- <button type="button" class="btn btn-primary" onclick="window.location.href='http://www.google.co.in'" > <i style="font-size:24px" class="fa">&#xf232;</i>   Jungle My Rooftop</button> -->
         <a class="btn btn-success" href="https://chat.whatsapp.com/5KuzQH8nhFx3JD1no1GOG4" target="_blank"> <i style="font-size:17px" class="fa">&#xf232;</i>      Jungle My Rooftop</a>
@@ -135,14 +132,21 @@ overflow-y: hidden;
 
 
     <div class="item">
-        <img src="images/BG_2.jpg" alt="Chicago" style="width:100%;">
+        <picture>
+        <source media="(min-width: 540px)" srcset="images/BG_2.jpg">
+        <img src="images/BG_2_Mobile.jpg" width="100%" alt="Practice">
+      </picture>
+
         <div class="carousel-caption" style="padding: 3%">
         <a class="btn btn-success" href="https://chat.whatsapp.com/5KuzQH8nhFx3JD1no1GOG4" target="_blank"> <i style="font-size:17px" class="fa">&#xf232;</i>      Jungle My Rooftop</a>
         </div>
     </div>
 
     <div class="item">
-        <img src="images/BG_3.jpg" alt="Chicago" style="width:100%;">
+        <picture>
+        <source media="(min-width: 540px)" srcset="images/BG_3.jpg">
+        <img src="images/BG_3_Mobile.jpg" width="100%" alt="Practice">
+      </picture>
         <div class="carousel-caption" style="padding: 3%">
        <a class="btn btn-success" href="https://chat.whatsapp.com/5KuzQH8nhFx3JD1no1GOG4" target="_blank"> <i style="font-size:17px" class="fa">&#xf232;</i>      Jungle My Rooftop</a>
 
