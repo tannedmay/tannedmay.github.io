@@ -1,0 +1,22 @@
+h5 {
+  display: inline-block;
+  background: #F5511E;
+  border-radius: 20px;
+  /*border-top-right-radius: 10px;*/
+}
+
+.btn-success {
+	background-color: #F5511E;
+	border: none; 
+	margin: 0;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn {
+	white-space: nowrap;
+}
