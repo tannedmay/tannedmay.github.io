@@ -1,0 +1,27 @@
+h5 {
+  display: inline-block;
+  padding: 1.5%;
+  background: #F5511E;
+  border-radius: 10px;
+  /*border-top-right-radius: 10px;*/
+}
+
+.btn-success {
+	background-color: #F5511E;
+	border: none; 
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media=(min-width: 540px) {
+	.carousel-caption {
+		padding: 2% 5% 2% 5%;
+		font-size: 1.3em;
+	}
+
+
+}
